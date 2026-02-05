@@ -1,0 +1,17 @@
+﻿namespace AutorizacionesAPI.Model.DTO
+{
+    public class RequestCreateSolicitudOpinionInformacion
+    {
+        public int idAsunto { get; set; }
+        public int idTipoAsunto { get; set; }
+        public Boolean unidadInterna { get; set; }
+        public int? idUnidadAdministrativa { get; set; } 
+        public string? unidadAdministrativaExterna { get; set; }
+        public string noOficioSolicitud { get; set; } = string.Empty;
+        public string fechaOficioSolicitud { get; set; } = null!;
+        public IFormFile? documento { get; set; }
+        public int? idTipoArchivo { get; set; }
+        public int? idSeccion { get; set; }
+        public string? numeroFolio { get; set; }
+    }
+}

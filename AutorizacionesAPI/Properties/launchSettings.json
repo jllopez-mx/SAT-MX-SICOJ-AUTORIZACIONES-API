@@ -1,0 +1,65 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:25432",
+      "sslPort": 44335
+    }
+  },
+  "profiles": {
+    "AutorizacionesAPI_LOCAL": {
+      "commandName": "Project",
+      "commandLineArgs": "--base ",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Local"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:8013;http://localhost:7013"
+    },
+    "AutorizacionesAPI_DEV": {
+      "commandName": "Project",
+      "commandLineArgs": "--base",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:8013;http://localhost:7013"
+    },
+    "AutorizacionesAPI_UAT": {
+      "commandName": "Project",
+      "commandLineArgs": "--base",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "UAT"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:8013;http://localhost:7013"
+    },
+    "AutorizacionesAPI_PROD": {
+      "commandName": "Project",
+      "commandLineArgs": "--base",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:8013;http://localhost:7013"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
